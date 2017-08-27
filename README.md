@@ -17,5 +17,5 @@ Make the `stroll_bearnav` package work:
 1. Load the map by entering its name in the action client `map_preprocessor` gui, clicking `Send goal`
 1. Start the navigation by clicking `Send goal` in the `navigation` gui.
 
-Realise how the image features' matches from the map to the current view can be uses to correct robot heading.
+Test how the image features' matches from the map to the current view reflect the pan of the camera.
 
