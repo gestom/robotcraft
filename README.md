@@ -10,7 +10,7 @@ Make your usb camera work:
 1. Clone the usb_cam ROS driver: `git clone https://github.com/ros-drivers/usb_cam.git`
 1. Compile it: `cd ..`, `catkin_make`
 1. Source your environment: `source devel/setup.bash`
-1. Make your camera easy to access: `sudo /dev/video0`
+1. Make your camera easy to access: `sudo chmod 777 /dev/video0`
 1. Run the camera node: `roslaunch usb_cam usb_cam-test.launch`
 1. Check the camera image: `rosrun image_view image_view image:=/usb_cam/image_raw`
 
