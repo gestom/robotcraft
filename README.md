@@ -15,7 +15,7 @@ Make your usb camera work:
 
 Make the `stroll_bearnav` package work:
 
-1. cd `~/coimbra_ws/src`
+1. `cd ~/coimbra_ws/src`
 1. Clone the stroll_bearnav package: `git clone https://github.com/gestom/stroll_bearnav.git`
 1. Compile it: `cd ..`, `catkin_make`
 1. Run it: `roslaunch stroll_bearnav stroll-core.launch`
