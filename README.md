@@ -18,6 +18,7 @@ Make the `stroll_bearnav` package work:
 1. `cd ~/coimbra_ws/src`
 1. Clone the stroll_bearnav package: `git clone https://github.com/gestom/stroll_bearnav.git`
 1. Compile it: `cd ..`, `catkin_make`
+1. Source your environment: `source devel/setup.bash`
 1. Run it: `roslaunch stroll_bearnav stroll-core.launch`
 1. Check the image features: `rosrun image_view image_view image:=/image_with_features`
 1. Check the system structure `rosrun rqt_graph rqt_graph`
