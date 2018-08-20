@@ -1,6 +1,8 @@
 # Robotcraft 2017
 ## Visual Navigation in Changing Environments
 
+Presentation is available for [download](http://labe.felk.cvut.cz/~tkrajnik/robotcraft.pdf)
+
 ### Workable demo 1: Map-and-replay navigation
 
 Prepare your environment in the home folder
